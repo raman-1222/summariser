@@ -1,0 +1,1 @@
+{\n  "manifest_version": 3,\n  "name": "Audio Recording Extension",\n  "version": "1.0",\n  "description": "A browser extension for recording audio.",\n  "permissions": [\n    "tabCapture",\n    "activeTab"\n  ],\n  "background": {\n    "service_worker": "background.js"\n  },\n  "action": {\n    "default_popup": "popup.html",\n    "default_icon": "icon.png"\n  }\n}
